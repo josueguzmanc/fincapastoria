@@ -103,6 +103,14 @@ h2 { font-size: clamp(2.2rem, 5vw, 4.4rem); line-height: .96; }
 .soon { display: inline-block; border: 1px solid rgba(255,255,255,.5); border-radius: 999px; padding: .3rem .7rem; letter-spacing: .16em; text-transform: uppercase; font-size: .72rem; }
 .cafe ul { list-style: none; padding: 0; }
 .cafe li { display: flex; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,.2); padding: .55rem 0; }
+.cafe__copy:has(.calibres) { max-width: 58rem; min-width: 0; width: 100%; }
+.calibres-scroll { max-width: 100%; overflow-x: auto; margin: 1rem 0; }
+.calibres { width: 100%; min-width: 620px; border-collapse: collapse; font-size: .9rem; }
+.calibres th, .calibres td { padding: .7rem .6rem; text-align: left; border-bottom: 1px solid rgba(255,255,255,.2); }
+.calibres thead th { background: rgba(255,255,255,.08); }
+.calibres tbody th { font-weight: 400; white-space: nowrap; }
+.calibres-nota { font-size: .8rem; line-height: 1.5; }
+
 .care .grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: .8rem; }
 .care article { background: white; padding: 1.2rem; border-radius: 1rem; min-height: 160px; }
 .history ol { grid-template-columns: repeat(3, 1fr); }
